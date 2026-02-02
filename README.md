@@ -16,6 +16,15 @@ cd build
 cmake ..
 make
 ```
+
+This will create a debug make; if you want to do it in release mode, use:
+```
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
+```
+
 Alternatively, you can use the `-G` option in `cmake` and create a solution for your chosen C++ IDE (for instance, `-G Xcode`).
 
 In a Windows environment, you'll likely need [CMake-GUI](https://cmake.org/download/), where you load the CMake older, click `configure` twice, and then `generate`. You will need to install an IDE and compiler beforehand, so you may choose it when it prompts you to.
