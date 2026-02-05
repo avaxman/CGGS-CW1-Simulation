@@ -2,6 +2,7 @@
 #define SLICE_COLUMNS_SPARSE_HEADER_FILE
 
 #include <Eigen/Dense>
+#include <Eigen/Sparse>
 
 
 Eigen::SparseMatrix<double> slice_columns_sparse(const Eigen::SparseMatrix<double>& mat,

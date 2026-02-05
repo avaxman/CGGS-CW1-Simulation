@@ -1,7 +1,7 @@
 #ifndef SORTROWS_HEADER_FILE
 #define SORTROWS_HEADER_FILE
 
-#include <eigen/dense>
+#include <Eigen/dense>
 #include <vector>
 
 using namespace Eigen;
